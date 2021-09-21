@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_category_threesteps",
+  "info": {
+    "name": "threesteps",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "anchorID": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.step"
+    }
+  }
+}

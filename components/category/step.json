@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_category_steps",
+  "info": {
+    "name": "step",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "img_path": {
+      "type": "string"
+    }
+  }
+}

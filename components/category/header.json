@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_pagecat_headers",
+  "info": {
+    "name": "header",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttonName": {
+      "type": "string"
+    },
+    "imgLink": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "imgAlt": {
+      "type": "string"
+    }
+  }
+}
