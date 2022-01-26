@@ -539,7 +539,8 @@
                         "category.threesteps",
                         "category.simple-text",
                         "category.costumer-ranking",
-                        "category.costumer-stories"
+                        "category.costumer-stories",
+                        "category.brands"
                       ]
                     },
                     "id": {
@@ -574,7 +575,8 @@
                         "category.threesteps",
                         "category.simple-text",
                         "category.costumer-ranking",
-                        "category.costumer-stories"
+                        "category.costumer-stories",
+                        "category.brands"
                       ]
                     },
                     "id": {
@@ -623,7 +625,8 @@
                         "category.threesteps",
                         "category.simple-text",
                         "category.costumer-ranking",
-                        "category.costumer-stories"
+                        "category.costumer-stories",
+                        "category.brands"
                       ]
                     },
                     "id": {
@@ -649,7 +652,8 @@
                         "category.threesteps",
                         "category.simple-text",
                         "category.costumer-ranking",
-                        "category.costumer-stories"
+                        "category.costumer-stories",
+                        "category.brands"
                       ]
                     },
                     "id": {
@@ -678,7 +682,8 @@
                         "category.threesteps",
                         "category.simple-text",
                         "category.costumer-ranking",
-                        "category.costumer-stories"
+                        "category.costumer-stories",
+                        "category.brands"
                       ]
                     },
                     "id": {
@@ -715,6 +720,50 @@
                     },
                     "anchorId": {
                       "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "category.header",
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories",
+                        "category.brands"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "anchorId": {
+                      "type": "string"
+                    },
+                    "images": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "id"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "image": {
+                            "type": "string"
+                          },
+                          "imageAlt": {
+                            "type": "string"
+                          }
+                        }
+                      }
                     }
                   },
                   "required": [
@@ -751,7 +800,8 @@
                         "category.threesteps",
                         "category.simple-text",
                         "category.costumer-ranking",
-                        "category.costumer-stories"
+                        "category.costumer-stories",
+                        "category.brands"
                       ]
                     },
                     "id": {
@@ -786,7 +836,8 @@
                         "category.threesteps",
                         "category.simple-text",
                         "category.costumer-ranking",
-                        "category.costumer-stories"
+                        "category.costumer-stories",
+                        "category.brands"
                       ]
                     },
                     "id": {
@@ -835,7 +886,8 @@
                         "category.threesteps",
                         "category.simple-text",
                         "category.costumer-ranking",
-                        "category.costumer-stories"
+                        "category.costumer-stories",
+                        "category.brands"
                       ]
                     },
                     "id": {
@@ -861,7 +913,8 @@
                         "category.threesteps",
                         "category.simple-text",
                         "category.costumer-ranking",
-                        "category.costumer-stories"
+                        "category.costumer-stories",
+                        "category.brands"
                       ]
                     },
                     "id": {
@@ -890,7 +943,8 @@
                         "category.threesteps",
                         "category.simple-text",
                         "category.costumer-ranking",
-                        "category.costumer-stories"
+                        "category.costumer-stories",
+                        "category.brands"
                       ]
                     },
                     "id": {
@@ -927,6 +981,50 @@
                     },
                     "anchorId": {
                       "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "category.header",
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories",
+                        "category.brands"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "anchorId": {
+                      "type": "string"
+                    },
+                    "images": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "id"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "image": {
+                            "type": "string"
+                          },
+                          "imageAlt": {
+                            "type": "string"
+                          }
+                        }
+                      }
                     }
                   },
                   "required": [

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_category_brands",
+  "info": {
+    "name": "Brands",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.brand"
+    }
+  }
+}
