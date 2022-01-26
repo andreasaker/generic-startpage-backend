@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_category_costumer_stories",
+  "info": {
+    "name": "CostumerStory",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "subtext": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "string"
+    },
+    "picAlt": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

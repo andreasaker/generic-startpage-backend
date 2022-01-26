@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_category_costumer_stories",
+  "info": {
+    "name": "costumerStories",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.costumer-story"
+    },
+    "anchorId": {
+      "type": "string"
+    }
+  }
+}

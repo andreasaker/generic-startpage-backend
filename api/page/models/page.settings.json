@@ -21,7 +21,10 @@
       "type": "dynamiczone",
       "components": [
         "category.header",
-        "category.threesteps"
+        "category.threesteps",
+        "category.simple-text",
+        "category.costumer-ranking",
+        "category.costumer-stories"
       ]
     }
   }

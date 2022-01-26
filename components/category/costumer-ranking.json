@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_category_costumer_rankings",
+  "info": {
+    "name": "CostumerRanking",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "stars": {
+      "type": "integer"
+    },
+    "paragraph": {
+      "type": "string"
+    }
+  }
+}

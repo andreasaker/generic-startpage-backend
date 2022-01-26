@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/21/2021 9:00:20 PM"
+    "x-generation-date": "01/26/2022 8:13:00 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2807,7 +2807,10 @@
                       "type": "string",
                       "enum": [
                         "category.header",
-                        "category.threesteps"
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories"
                       ]
                     },
                     "id": {
@@ -2839,7 +2842,10 @@
                       "type": "string",
                       "enum": [
                         "category.header",
-                        "category.threesteps"
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories"
                       ]
                     },
                     "id": {
@@ -2873,6 +2879,113 @@
                           }
                         }
                       }
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "category.header",
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "category.header",
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "stars": {
+                      "type": "integer"
+                    },
+                    "paragraph": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "category.header",
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "stories": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "id"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "text": {
+                            "type": "string"
+                          },
+                          "subtext": {
+                            "type": "string"
+                          },
+                          "picture": {
+                            "type": "string"
+                          },
+                          "picAlt": {
+                            "type": "string"
+                          },
+                          "color": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "anchorId": {
+                      "type": "string"
                     }
                   },
                   "required": [
@@ -2906,7 +3019,10 @@
                       "type": "string",
                       "enum": [
                         "category.header",
-                        "category.threesteps"
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories"
                       ]
                     },
                     "id": {
@@ -2938,7 +3054,10 @@
                       "type": "string",
                       "enum": [
                         "category.header",
-                        "category.threesteps"
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories"
                       ]
                     },
                     "id": {
@@ -2972,6 +3091,113 @@
                           }
                         }
                       }
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "category.header",
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "category.header",
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "stars": {
+                      "type": "integer"
+                    },
+                    "paragraph": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "category.header",
+                        "category.threesteps",
+                        "category.simple-text",
+                        "category.costumer-ranking",
+                        "category.costumer-stories"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "stories": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "id"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "text": {
+                            "type": "string"
+                          },
+                          "subtext": {
+                            "type": "string"
+                          },
+                          "picture": {
+                            "type": "string"
+                          },
+                          "picAlt": {
+                            "type": "string"
+                          },
+                          "color": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "anchorId": {
+                      "type": "string"
                     }
                   },
                   "required": [
